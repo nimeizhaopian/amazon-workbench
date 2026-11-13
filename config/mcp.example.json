@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "amazonWorkbench": {
+      "command": "node",
+      "args": ["D:/other/aw/connectors/mcp-server.mjs"],
+      "cwd": "D:/other/aw"
+    },
+    "ziniao": {
+      "command": "uvx",
+      "args": ["ziniao-mcp==0.1.33"],
+      "env": {
+        "ZINIAO_COMPANY": "填写企业名",
+        "ZINIAO_USERNAME": "填写用户名",
+        "ZINIAO_PASSWORD": "填写密码",
+        "ZINIAO_CLIENT_PATH": "填写紫鸟程序路径",
+        "ZINIAO_VERSION": "v6"
+      }
+    }
+  }
+}
